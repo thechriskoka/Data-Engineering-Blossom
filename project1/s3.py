@@ -2,9 +2,15 @@ import pandas as pd
 import boto3
 
 def main():
+	#Let us initialize our s3 resource
+	s3 = boto3.client('s3')
+	bucket_name = 'blossom-data-eng-richmond'
+	
+	#Downloading file from the s3 bucket.
+	s3.download_file('blossom-data-engs', 'free-7-million-company-dataset.zip', 'companies_sorted.zip')
+	
 	#Loading our dataset into a dataframe
-	#Loading first one million rows due the nature of the large filesize of the dataset.
-	comp_data = pd.read_csv("companies_sorted.csv", nrows=1000000, index_col=0)
+	comp_data = pd.read_csv("companies_sorted.csv", index_col=0, compression='zip')
 	
 	#Checking th shape of our dataframe
 	comp_data.shape
@@ -26,10 +32,8 @@ def main():
 	comp_data.to_parquet('free-7-million-company_dataset.parquet')
 	
 	#Uploading files to bucket.
-	s3 = boto3.client('s3')
 	filename1 = 'free-7-million-company-dataset-json.gzip'
 	filename2 = 'free-7million-company-dataset.parquet')
-	bucket_name = 'blossom-data-eng-richmond'
 	
 	s3.upload_file(filename1, bucket_name, filename1) #Upload JSON file
 	s3.upload_file(filename2, bucket_name, filename2) #Upload PARQUET file
