@@ -17,3 +17,10 @@ This project used the following packages.
 
 ### Results
 The results were files converted into JSON and PARQUET formats and then loaded directly into the specified s3 bucket.
+
+
+## Project 2 : Batch Processing For Data Mining.
+This projects investigates top keywords companies within various cities in the USA require data science candidates to have in their resume.
+We will be using PySpark as our data processing frame work in this priject.
+
+### Configuration
