@@ -31,4 +31,16 @@ The project demonstrates the following.
 ### Configuration
 This project used PySpark packages which is found in ```requirements2.txt```
  - Install packages in requirements2.txt file ( ```pip install -r requirements2.txt```)
- - Load the ```data scientist job market dataset``` and ```us stocks``` datasets from s3 bucket [s3://blossom-data-engs] onto your computer.
+ - Load the ```data scientist job market dataset``` and ```us stocks``` datasets from s3 bucket onto your computer.
+ -Follow Project 2 instructions on [Project-2-Instructions](https://docs.google.com/document/d/1aUlsbUtUIbaZpLa_ZNVSWg49U7A7GhEPQTPoA7KzyqQ/edit)
+ 
+ 
+ ## Project 3: Basic End-To-End EXTRACT TRANSFORM LOAD (ETL) Pipeline
+ This projects seeks to implement a basic Extract Load Transform (ETL) pipeline using *Spark* and *PostgreSQL.*
+ 
+ ### Congfiguration 
+ - Install Postgres (either Mac or All other OS) [EnterpiseDB](https://postgresapp.com/)
+ - Install Postgres Client [DBeaver](https://dbeaver.io/download/)
+ - Conntect to Postgres using the CLI (```psql --host locahost --username postgres --password```)
+ -Create a copy of the **Jars** folder on your computer.
+ - Follow lab project instruction on [Project3 Instructions](https://docs.google.com/document/d/1NwEB-1kaSUmJoL4U6B6qO4zddkciJYmP_DMqpN-HNak/edit)
