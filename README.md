@@ -31,4 +31,4 @@ The project demonstrates the following.
 ### Configuration
 This project used PySpark packages which is found in ```requirements2.txt```
  - Install packages in requirements2.txt file ( ```pip install -r requirements2.txt```)
- - Load the ```data scientist job market dataset``` and ```us stocks``` datasets from s3 bucket [s3://blossom-data-engs] onto your computer
+ - Load the ```data scientist job market dataset``` and ```us stocks``` datasets from s3 bucket [s3://blossom-data-engs] onto your computer.
