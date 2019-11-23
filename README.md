@@ -1,7 +1,7 @@
 # Data-Engineering-Blossom
 This repository contains all projects pertaining to the Data Engineering Fellowship program with Blossom Academy.
 
-## Project 1: This project's main aim is to implement the following
+## Project 1: Downloading, Reading and Filtering Data
 - Downloading data from s3 bucket. 
 - Reading CSV file into a pandas dataframe
 - Filtering certain columns 
