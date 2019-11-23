@@ -1,4 +1,4 @@
-#Producer file Implementing Streaming Processing from Loop Ghana.
+#Producer file Implementing Streaming Processing from Loop Ghana..
 
 #Importing Modules.
 import boto3
