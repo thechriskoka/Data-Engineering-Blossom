@@ -54,3 +54,8 @@ This project seeks to implement the concept of web scraping which is simply to a
 - Install BeautifulSoup (``` pip install beautifulsoup4```)
 - Install LXML (```pip install lxml```)
 - Follow project instructions on [Project4Instructions](https://docs.google.com/document/d/1YKv4hwi1igESx0hmdd7gOLURngOQINNdFOMSIcZesDk/edit)
+
+
+## Project 5: Stream Processing From Loop Ghana.
+This projects scrapes real-time data from Loop Ghana (a real estates company's website) and uses the concept of Kinesis from Amazon to execute this successfully.
+The real-time data is being stored into a CSV file as a when the data is loaded.
