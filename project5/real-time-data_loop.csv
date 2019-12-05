@@ -1,0 +1,16 @@
+,id,source,description,price,currency,area,beds,showers,address,url,lat,lon,geometry,index,13254,dist
+0,c8e5,loopghana,,76000,$,133 ,2 ,2 ,The Pine Comm. 25,https://listings.loopghana.com/listing/c8e5,5.7265122576,0.0159124807,POINT (0.0159124807 5.7265122576),,,
+1,c8ex,loopghana,,76000,$,133 ,2 ,2 ,The Pine Comm. 25,https://listings.loopghana.com/listing/c8ex,5.7269072433,0.0157569126,POINT (0.0157569126 5.7269072433),,,
+0,,,,,,,,,,,,,,osm_id,6466793971,0.003738156564298209
+1,,,,,,,,,,,,,,name,Community 25 Supermarket,
+2,,,,,,,,,,,,,,amenity,,
+3,,,,,,,,,,,,,,man_made,,
+4,,,,,,,,,,,,,,shop,supermarket,
+5,,,,,,,,,,,,,,tourism,,
+6,,,,,,,,,,,,,,opening_ho,"Mo-Sa 07:00-21:30, Su 13:00-21:30",
+7,,,,,,,,,,,,,,beds,,
+8,,,,,,,,,,,,,,rooms,,
+9,,,,,,,,,,,,,,addr_full,,
+10,,,,,,,,,,,,,,addr_house,,
+11,,,,,,,,,,,,,,addr_stree,,
+12,,,,,,,,,,,,,,addr_city,Tema,
