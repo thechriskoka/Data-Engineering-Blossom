@@ -8,5 +8,5 @@ The project implements the following:
 - Finally, appending the results to a CSV file.
 
 ### Configuration
-- Connect to boto3 client
+- Connect to s3 through boto3client
 - Import pandas, requests and beautifulsoup packages.
